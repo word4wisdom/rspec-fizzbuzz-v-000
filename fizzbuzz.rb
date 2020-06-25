@@ -1,10 +1,10 @@
 def fizzbuzz(number)
   if number == % 3 
-    "Fizz"
+   puts "Fizz"
   elsif number == % 5 
-    "Buzz"
+  puts  "Buzz"
   elsif number  == % 15
-    "Fizzbuzz"
+  puts  "Fizzbuzz"
   else
     nil
   end
