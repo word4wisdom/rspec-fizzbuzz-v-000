@@ -1,5 +1,5 @@
 def fizzbuzz(number)
-  if number % 3 == 0 
+  if number == % 3 
     "Fizz"
   elsif number % 5 == 0
     "Buzz"
@@ -10,3 +10,14 @@ def fizzbuzz(number)
   end
 end
 
+puts('Lets play fizzbuzz')
+print('enter a number: ')
+number = gets()
+puts(number)
+if number == % 3
+  puts ('fizz')
+elsif number == % 5
+  puts ('buzz')
+elsif number == %15
+  puts ('fizzbuzz')
+end
